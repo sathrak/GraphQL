@@ -45,3 +45,4 @@ GET /users/1 and GET /users/1/friends
 ### GraphQL is strongly-typed: 
   A GraphQL query can be ensured to be valid within a GraphQL type system at development time allowing the server to make guarantees about the response. This makes it easier to build high-quality client tools
   
+  
