@@ -1,5 +1,3 @@
-# GraphQL
-Optimize RESTful API calls using GraphQL
 
 # What is GraphQL?
   GraphQL is a query language created by Facebook in 2012 which provides a common interface between the client and the server for data fetching and manipulations.
@@ -35,4 +33,15 @@ GET /users/1 and GET /users/1/friends
     - Client‐specified queries
     - Introspective
   I would like to highlight strong-typing here which means that GraphQL introduces an application level type system. It's a contract between the client and server which means that your server in the background may use different internal types. The only thing here what matters is that the GraphQL server must be able to receive GraphQL queries, decide if that it is syntactically correct and provide the described data for that.
+  
+# Advantages of GraphQL:
+
+### GraphQL is declarative: 
+   Query responses are decided by the client rather than the server. A GraphQL query returns exactly what a client asks for and no more.
+
+### GraphQL is compositional: 
+   A GraphQL query itself is a hierarchical set of fields. The query is shaped just like the data it returns. It is a natural way for product engineers to describe data requirements.
+
+### GraphQL is strongly-typed: 
+  A GraphQL query can be ensured to be valid within a GraphQL type system at development time allowing the server to make guarantees about the response. This makes it easier to build high-quality client tools
   
