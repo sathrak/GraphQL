@@ -46,7 +46,7 @@ GET /users/1 and GET /users/1/friends
   A GraphQL query can be ensured to be valid within a GraphQL type system at development time allowing the server to make guarantees about the response. This makes it easier to build high-quality client tools
   
   
-#What is GraphQL ?#
+# What is GraphQL ? #
 
 GraphQL is an open source server-side technology which was developed by Facebook to optimize RESTful API calls. 
 It is an execution engine and a data query language. 
@@ -59,13 +59,13 @@ It is an execution engine and a data query language.
     Build jQuery client applications to consume the API
 
 
-##Why GraphQL##
+## Why GraphQL ##
 
 	RESTful APIs follow clear and well-structured resource-oriented approach. 
 	Sometimes it is not possible to fetch data with a single request. 
 	This is where GraphQL comes handy. GraphQL structures data in the form of a graph with its powerful query syntax for traversing, retrieving, and modifying data.
 
-###The following are advantages of using GraphQL query Language −###
+### The following are advantages of using GraphQL query Language −###
 
 	1. Ask for what you want − and get it
 		Send a GraphQL query to your API and get exactly what you need. 
